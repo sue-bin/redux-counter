@@ -9,9 +9,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Counter store={this.props.store} />
-        <Option store={this.props.store} />
-        <Button store={this.props.store} />
+        <Counter />
+        <Option />
+        <Button />
       </div>
     );
   }
